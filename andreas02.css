@@ -43,7 +43,7 @@ p {margin:0 0 1.4em;}
 
 /* Main content */
 #content {border-left:1px solid #e0e0e0; border-right:1px solid #e0e0e0; line-height:1.5em; margin:0 185px 5px; padding:0 10px;}
-#contentwide {border-left:1px solid #e0e0e0; line-height:1.5em; margin:0 0 5px 185px; padding:0 0 0 10px;}
+#contentwide {border-left:1px solid #e0e0e0; line-height:1.5em; margin:0 0 5px 185px; padding:0 12px 0 10px;}
 #contentwide2 {border-right:1px solid #e0e0e0; line-height:1.5em; margin:0 185px 5px 0; padding:0 10px 0 0;}
 #content h2,#contentwide h2,#contentwide2 h2 {font-size:1.6em; margin:0 0 10px;}
 #content h3,#contentwide h3,#contentwide2 h3 {font-size:1.3em; margin:0 0 8px;}
