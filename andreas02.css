@@ -15,13 +15,13 @@ p {margin:0 0 1.4em;}
 
 /* Header */
 #header {height:45px; margin:10px 0 0; padding:0;}
-#header h1 {background-color:inherit; color:#505050; float:left; font-size:2em; margin:0 0 10px; width:350px;}
+#header h1 {background-color:inherit; color:#505050; float:left; font-size:2em; margin:5px 0 10px 8px; width:350px;}
 #header h1 a {background-color:inherit; color:#505050; text-decoration:none;}
-#header p {float:right; font-weight:700; line-height:1.3em; margin:8px 0 0; text-align:center; width:400px;}
+#header p {float:right; font-weight:700; line-height:1.3em; margin:12px 0 0; text-align:center; width:400px;}
 #frontphoto {border:0; margin:0 0 10px;}
 
 /*Left and right sidebar */
-#leftside {clear:left; float:left; margin:0 0 5px; padding:0; width:190px;}
+#leftside {clear:left; float:left; margin:0 0px 5px 8px; padding:0; width:190px;}
 #rightside {float:right; line-height:1.4em; margin:0 0 5px; padding:0; width:190px;}
 #leftside p,#leftside ul, #rightside p,#rightside ul {margin:0 0 16px; padding:0;}
 #leftside p, #rightside p {font-size:0.9em; line-height:1.4em;}
@@ -32,8 +32,8 @@ p {margin:0 0 1.4em;}
 #leftside h2,#leftside h3, #rightside h2,#rightside h3 {color:#505050; font-size:1.2em; margin:0 0 8px; padding:0;}
 
 /* Main menu */
-#leftside ul.avmenu, #rightside ul.avmenu {display:block; list-style:none; margin:0 0 18px 0; padding:0; width:190px;}
-#leftside ul.avmenu li, #rightside ul.avmenu li {display:inline; line-height:1.4em; padding:0; width:190px;}
+#leftside ul.avmenu, #rightside ul.avmenu {display:block; list-style:none; margin:0 0 18px; padding:0; width:182px;}
+#leftside ul.avmenu li, #rightside ul.avmenu li {display:inline; line-height:1.4em; padding:0; width:182px;}
 #leftside ul.avmenu li a, #rightside ul.avmenu li a {background-color:#f4f4f4; border-left:4px solid #ccc; color:#505050; float:left; font-weight:700; margin-bottom:5px; padding:5px 1px 5px 5px; text-decoration:none; width:160px;}
 #leftside ul.avmenu li a:hover,#leftside ul.avmenu li a.current, #rightside ul.avmenu li a:hover,#rightside ul.avmenu li a.current {background-color:#eaeaea; border-left:4px solid #286ea0; color:#505050;}
 #leftside ul.avmenu ul, #rightside ul.avmenu ul {font-size:0.9em; margin:0 0 0 15px; padding:0 0 5px; width:125px;}

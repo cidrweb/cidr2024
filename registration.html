@@ -8,133 +8,17 @@
     <meta name="keywords" content="your,keywords,goes,here" />
     <meta name="author" content="Your Name" />
     <link rel="stylesheet" type="text/css" href="andreas02.css" media="screen,projection" />
-    <link rel="stylesheet" type="text/css" href="http://www.cidrdb.org/cidr2013/print.css" media="print" />
     <title>CIDR 2024 - Registration</title>
-
-    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-    <script language="JavaScript">
-        <!-- This script and many more are available free online at -->
-        // Set up the image files to be used.
-
-        var theImages = new Array() // do not change this
-
-        // To add more image files, continue with the
-
-        // pattern below, adding to the array.
-
-        theImages[0] = 'img/Property_Courtyard.jpg'
-
-        // do not edit anything below this line
-
-        var p = theImages.length;
-
-        var whichImage = Math.round(Math.random() * (p - 1));
-
-        function showImage() {
-
-            document.write('<div id="masthead">');
-
-            document.write('<img src="' + theImages[whichImage] + '" alt="" width="760" height="350" /></a>');
-
-            document.write('</div>');
-
-        }
-        /***
-        Simple jQuery Slideshow Script
-        Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything,
-        etc. Please link out to me if you like it :)
-        ***/
-
-        function slideSwitch() {
-            var $active = $('#slideshow IMG.active');
-
-            if ($active.length == 0)
-                $active = $('#slideshow IMG:last');
-
-            // use this to pull the images in the order they appear in the markup
-            var $next = $active.next().length ? $active.next()
-                : $('#slideshow IMG:first');
-
-            // uncomment the 3 lines below to pull the images in random order
-
-            // var $sibs = $active.siblings();
-            // var rndNum = Math.floor(Math.random() * $sibs.length );
-            // var $next = $( $sibs[ rndNum ] );
-
-            $active.addClass('last-active');
-
-            $next.css({
-                opacity: 0.0
-            }).addClass('active').animate({
-                opacity: 1.0
-            }, 1000, function () {
-                $active.removeClass('active last-active');
-            });
-        }
-
-        $(function () {
-            setInterval("slideSwitch()", 5000);
-        });
-    </script>
-
-    <style type="text/css">
-        /*** set the width and height to match your images **/
-        #slideshow {
-            position: relative;
-            height: 350px;
-        }
-
-        #slideshow IMG {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 8;
-            opacity: 0.0;
-        }
-
-        #slideshow IMG.active {
-            z-index: 10;
-            opacity: 1.0;
-        }
-
-        #slideshow IMG.last-active {
-            z-index: 9;
-        }
-    </style>
-
-    <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-
-        #myFrame {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-
-
-
 </head>
 
 <body>
     <div id="wrap">
 
         <div id="header">
-            <h1>
-                <a href="index.html">CIDR 2024</a>
-            </h1>
-            <p>
+            <h1><a href="index.html">CIDR 2024</a></h1>
             <p>January 14-17, 2024 <span style="padding-left:30px"> Chaminade, USA</span></p>
-            </p>
         </div>
 
-        <script language="JavaScript">
-            showImage();
-        </script>
         <div id="leftside">
             <h2 class="hide">Menu:</h2>
 
