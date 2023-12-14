@@ -1,7 +1,7 @@
 /*************************
  * GRID SCHEDULE LAYOUT
  *************************/
-@media screen and (min-width:700px) {
+@media all and (min-width:700px) {
     .schedule {
         display: grid;
         grid-gap: 1em;
@@ -11,31 +11,56 @@
             [time-0845] auto
             [time-0900] auto
             [time-0915] auto
+            [time-0930] auto
+            [time-0945] auto
             [time-1000] auto
             [time-1015] auto
-            [time-1020] auto
             [time-1030] auto
             [time-1045] auto
-            [time-1050] auto
             [time-1100] auto
+            [time-1115] auto
+            [time-1130] auto
+            [time-1145] auto
             [time-1200] auto
-            [time-1210] auto
             [time-1215] auto
             [time-1230] auto
+            [time-1245] auto
             [time-1300] auto
+            [time-1315] auto
+            [time-1330] auto
             [time-1345] auto
             [time-1400] auto
+            [time-1415] auto
             [time-1430] auto
+            [time-1445] auto
             [time-1500] auto
+            [time-1515] auto
             [time-1530] auto
+            [time-1545] auto
             [time-1600] auto
-            [time-1610] auto
+            [time-1615] auto
             [time-1630] auto
+            [time-1645] auto
             [time-1700] auto
-            [time-1740] auto
+            [time-1715] auto
+            [time-1730] auto
+            [time-1745] auto
 			[time-1800] auto
+			[time-1815] auto
+			[time-1830] auto
+			[time-1845] auto
+			[time-1900] auto
+			[time-1915] auto
             [time-1930] auto
+            [time-1945] auto
+            [time-2000] auto
+            [time-2015] auto
+            [time-2030] auto
+            [time-2045] auto
             [time-2100] auto
+            [time-2115] auto
+            [time-2130] auto
+            [time-2145] auto
             [time-2200] auto;
             
             
@@ -51,8 +76,56 @@
             [track-all-start] 2fr
 
             [track-1-start] auto
-      		[track-1-end track-2-start] auto
-      		[track-2-end] auto
+      		[track-1-end] auto
+            [track-all-end];
+    }
+
+    /* Wednesday is shorter, so we only define grid columns until 2.30pm */
+    .schedule_wed {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows:
+            [time-0700] auto
+            [time-0830] auto
+            [time-0845] auto
+            [time-0900] auto
+            [time-0915] auto
+            [time-0930] auto
+            [time-0945] auto
+            [time-1000] auto
+            [time-1015] auto
+            [time-1030] auto
+            [time-1045] auto
+            [time-1100] auto
+            [time-1115] auto
+            [time-1130] auto
+            [time-1145] auto
+            [time-1200] auto
+            [time-1215] auto
+            [time-1230] auto
+            [time-1245] auto
+            [time-1300] auto
+            [time-1315] auto
+            [time-1330] auto
+            [time-1345] auto
+            [time-1400] auto
+            [time-1415] auto
+            [time-1430] auto;
+            
+            
+            /* Note 1:
+            Use 24hr time for gridline names for simplicity
+
+            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+            */
+
+        grid-template-columns:
+            [times] 8em
+            [track-all-start] 2fr
+
+            [track-1-start] auto
+      		[track-1-end] auto
             [track-all-end];
     }
 }
@@ -66,7 +139,7 @@
 }
 
 @supports( display:grid ) {
-    @media screen and (min-width:700px) {
+    @media all and (min-width:700px) {
         .track-slot {
             display: block;
             padding: 10px 5px 5px;
@@ -84,7 +157,7 @@
 }
 
 @supports( display:grid ) {
-    @media screen and (min-width: 700px) {
+    @media all and (min-width: 700px) {
         .session {
             margin: 0;
         }   
