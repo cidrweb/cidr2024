@@ -100,13 +100,12 @@
                 </div>
                 <h3 class="time-slot" style="grid-row: time-0915;">9:15am</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-0915 / time-1015;">
-                    <h3 class="session-title">Keynote 1</h3>
+                    <h3 class="session-title"><a class="link" href="keynotespeakers.html#monday">Keynote 1</a></h3>
                     <!--<span class="session-location">(Room: Zürich)</span>-->
                     <span class="session-time">9:15 &ndash; 10:15</span>
                     <span class="session-presenter">Chair: TBA</span>
-                    <span class="session-talk">“Constraint-Driven Innovation”</span>
-                    <span class="keynote-presenter"><a class="link" href="keynotespeakers.html#monday">James Hamilton
-                            (Amazon) </a></span>
+                    <span class="session-talk"><a class="link" href="keynotespeakers.html#monday">Constraint-Driven Innovation</a></span>
+                    <span class="keynote-presenter">James Hamilton (Amazon)</a></span>
                 </div>
 
                 <h3 class="time-slot" style="grid-row: time-1015;">10:15am</h3>
@@ -114,37 +113,38 @@
                     <h3 class="session-title">Break</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1045;">10:45am</h3>
+                <h3 class="time-slot" style="grid-row: time-1045;" id="session1">10:45am</h3>
 
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1045 / time-1200;">
-                    <h3 class="session-title"><a href="#">Session 1: Core DB 1</a></h3>
+                    <h3 class="session-title"><a href="#session1">Session 1: Core DB 1</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
                     <br>
                     <span class="session-time">10:45 &ndash; 11:05</span>
-                    <span class="session-talk"><a class="link" href="#">Chablis: Fast and General
+                    <span class="session-talk"><a class="link" href="papers/p4-eldeeb.pdf">Chablis: Fast and General
                             Transactions in Geo-Distributed Systems</a></span>
                     <span class="session-presenter">Tamer Eldeeb (Columbia University)*; Philip Bernstein (Microsoft
                         Research); Asaf Cidon (Columbia University); Junfeng Yang (Columbia University)</span>
 
                     <br>
                     <span class="session-time">11:05 &ndash; 11:25</span>
-                    <span class="session-talk"><a class="link" href="#">A Critique of Modern SQL And A
-                            Proposal Towards A Simple and Expressive Query Language</a></span>
+                    <span class="session-talk"><a class="link" href="papers/p48-neumann.pdf">A Critique of Modern SQL
+                            and a
+                            Proposal Towards a Simple and Expressive Query Language</a></span>
                     <span class="session-presenter">Thomas Neumann (TUM); Viktor Leis (Technische Universität
                         München)*</span>
 
                     <br>
                     <span class="session-time">11:25 &ndash; 11:45</span>
-                    <span class="session-talk"><a class="link" href="#">A Model for Query Execution Over
+                    <span class="session-talk"><a class="link" href="papers/p17-wang.pdf">A Model for Query Execution Over
                             Heterogeneous Instances</a></span>
                     <span class="session-presenter">Ziheng Wang (Stanford)*; Emanuel Adamiak (Stanford); Alex Aiken
                         (Stanford University)</span>
 
                     <br>
                     <span class="session-time">11:45 &ndash; 12:05</span>
-                    <span class="session-talk"><a class="link" href="#">Predicate Transfer: Efficient
+                    <span class="session-talk"><a class="link" href="papers/p22-yang.pdf">Predicate Transfer: Efficient
                             Pre-Filtering on Multi-Join Queries</a></span>
                     <span class="session-presenter">Yifei Yang (University of Wisconsin, Madison)*; Hangdong Zhao
                         (University of Wisconsin, Madison); Xiangyao Yu (University of Wisconsin-Madison); Paraschos
@@ -162,16 +162,16 @@
                     <h3 class="session-title">Lunch</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1330;">1:30pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1330;" id="session2">1:30pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1330 / time-1430;">
-                    <h3 class="session-title"><a href="#">Session 2: Systems/HW</a></h3>
+                    <h3 class="session-title"><a href="#session2">Session 2: Systems/HW</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">1:30 &ndash; 1:50</span>
-                    <span class="session-talk"><a class="link" href="#">Database Kernels: Seamless
+                    <span class="session-talk"><a class="link" href="papers/p43-lee.pdf">Database Kernels: Seamless
                             Integration of Database Systems and Fast Storage via CXL</a></span>
                     <span class="session-presenter">Sangjin Lee (University of Fribourg); Alberto Lerner (University of
                         Friborug)*; Philippe Bonnet (IT Univ Copenhagen, Denmark); Philippe Cudre-Mauroux (Exascale
@@ -179,7 +179,7 @@
 
                     <br>
                     <span class="session-time">1:50 &ndash; 2:10</span>
-                    <span class="session-talk"><a class="link" href="#">Program your (custom) SIMD
+                    <span class="session-talk"><a class="link" href="papers/p53-pietrzyk.pdf">Program your (custom) SIMD
                             instruction set on FPGA in C++</a></span>
                     <span class="session-presenter">Johannes Pietrzyk (TU Dresden)*; Alexander Krause (TU Dresden);
                         Christian Faerber (Intel Corporation); Dirk Habich (TU Dresden); Wolfgang Lehner (TU
@@ -187,16 +187,17 @@
 
                     <br>
                     <span class="session-time">2:10 &ndash; 2:30</span>
-                    <span class="session-talk"><a class="link" href="#">Taking the Shortcut: Actively
+                    <span class="session-talk"><a class="link" href="papers/p58-schuhknecht.pdf">Taking the Shortcut:
+                            Actively
                             Incorporating the Virtual Memory Index of the OS to Hardware-Accelerate Databases
                             Indexing</a></span>
                     <span class="session-presenter">Felix M Schuhknecht (Johannes Gutenberg University Mainz)*</span>
 
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1430;">2:30pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1430;" id="award-session">2:30pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1430 / time-1515;">
-                    <h3 class="session-title"><a href="#">Award session</a></h3>
+                    <h3 class="session-title"><a href="#award-session">Award session</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
@@ -215,30 +216,32 @@
                     <h3 class="session-title">Break</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1530;">3:30pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1530;" id="session3">3:30pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1530 / time-1700;">
-                    <h3 class="session-title"><a href="#">Session 3: Cloud 1</a></h3>
+                    <h3 class="session-title"><a href="#session3">Session 3: Cloud 1</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">3:30 &ndash; 3:50</span>
-                    <span class="session-talk"><a class="link" href="#">The Tipping Point of Edge-Cloud Data
+                    <span class="session-talk"><a class="link" href="papers/p71-nawab.pdf">The Tipping Point of
+                            Edge-Cloud Data
                             Management</a></span>
                     <span class="session-presenter">Faisal Nawab (University of California at Irvine)*; Moshe Shadmon
                         (AnyLog)</span>
 
                     <br>
                     <span class="session-time">3:50 &ndash; 4:10</span>
-                    <span class="session-talk"><a class="link" href="#">Cost-Intelligent Data Analytics in
+                    <span class="session-talk"><a class="link" href="papers/p78-zhang.pdf">Cost-Intelligent Data
+                            Analytics in
                             the Cloud</a></span>
                     <span class="session-presenter">Huanchen Zhang (Tsinghua University)*; Yihao Liu (Tsinghua
                         University); Jiaqi Yan (Snowflake)</span>
 
                     <br>
                     <span class="session-time">4:10 &ndash; 4:30</span>
-                    <span class="session-talk"><a class="link" href="#">Towards Resource-adaptive Query
+                    <span class="session-talk"><a class="link" href="papers/p34-liu.pdf">Towards Resource-adaptive Query
                             Execution in Cloud Native Databases</a></span>
                     <span class="session-presenter">Rui Liu (University of Chicago)*; Jun Hyuk Chang (University of
                         Chicago); Riki Otaki (University of Chicago); Zhe Heng Eng (University of Chicago); Aaron J
@@ -270,30 +273,32 @@
             <h2 id="schedule-heading">Tuesday</h2>
             <div class="schedule" aria-labelledby="schedule-heading">
 
-                <h3 class="time-slot" style="grid-row: time-0900;">9:00am</h3>
+                <h3 class="time-slot" style="grid-row: time-0900;" id="session4">9:00am</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-0900 / time-1000;">
-                    <h3 class="session-title"><a href="#">Session 4: Core DB 2</a></h3>
+                    <h3 class="session-title"><a href="#session4">Session 4: Core DB 2</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">9:00 &ndash; 9:20</span>
-                    <span class="session-talk"><a class="link" href="#">Is Perfect Hashing Practical for
+                    <span class="session-talk"><a class="link" href="papers/p65-gaffney.pdf">Is Perfect Hashing
+                            Practical for
                             OLAP Systems?</a></span>
                     <span class="session-presenter">Kevin P Gaffney (University of Wisconsin-Madison)*; Jignesh Patel
                         (Carnegie Mellon University)</span>
 
                     <br>
                     <span class="session-time">9:20 &ndash; 9:40</span>
-                    <span class="session-talk"><a class="link" href="#">Oligolithic Cross-task Optimizations
+                    <span class="session-talk"><a class="link" href="papers/p31-zapridou.pdf">Oligolithic Cross-task
+                            Optimizations
                             across Isolated Workloads</a></span>
                     <span class="session-presenter">Eleni Zapridou (EPFL)*; Panagiotis Sioulas (EPFL); Anastasia
                         Ailamaki (EPFL)</span>
 
                     <br>
                     <span class="session-time">9:40 &ndash; 10:00</span>
-                    <span class="session-talk"><a class="link" href="#">Dear User-Defined Functions,
+                    <span class="session-talk"><a class="link" href="papers/p13-franz.pdf">Dear User-Defined Functions,
                             Inlining isn’t working out so great for us. Let’s try batching to make our relationship
                             work. Sincerely, SQL</a></span>
                     <span class="session-presenter">Kai Franz (Carnegie Mellon University); Samuel I Arch (Carnegie
@@ -311,31 +316,31 @@
                     <h3 class="session-title">Break</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1100;">10:50am</h3>
+                <h3 class="time-slot" style="grid-row: time-1100;" id="session5">10:50am</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1100 / time-1200;">
-                    <h3 class="session-title"><a href="#">Session 5: Benchmarking/Testing</a></h3>
+                    <h3 class="session-title"><a href="#session5">Session 5: Benchmarking/Testing</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">10:50 &ndash; 11:10</span>
-                    <span class="session-talk"><a class="link" href="#">PandaDB: Performance Debugging using
-                            Autonomous Agents for Database Systems</a></span>
+                    <span class="session-talk"><a class="link" href="papers/p6-singh.pdf">Panda: Performance Debugging
+                            for Databases using LLM Agents</a></span>
                     <span class="session-presenter">Vikramank Y Singh (Amazon)*; Kapil Vaidya (MIT); Vinayshekhar
                         Bannihatti Kumar (Amazon); Sopan Khosla (AWS AI Labs); Balakrishnan Narayanaswamy (Amazon);
                         Rashmi Gangadharaiah (AWS AI, Amazon); Tim Kraska (MIT)</span>
 
                     <br>
                     <span class="session-time">11:10 &ndash; 11:30</span>
-                    <span class="session-talk"><a class="link" href="#">TracEx: Understanding and Analyzing
+                    <span class="session-talk"><a class="link" href="papers/p8-durner.pdf">TracEx: Understanding and Analyzing
                             Database Traces</a></span>
                     <span class="session-presenter">Dominik Durner (TUM)*; Lennart Espe (TU München); Jana Giceva (TU
                         Munich); Anja Gruenheid (Microsoft)</span>
 
                     <br>
                     <span class="session-time">11:30 &ndash; 11:50</span>
-                    <span class="session-talk"><a class="link" href="#">Towards an Objective Metric for Data
+                    <span class="session-talk"><a class="link" href="papers/p66-glavic.pdf">Towards an Objective Metric for Data
                             Value Through Relevance</a></span>
                     <span class="session-presenter">Boris Glavic (Illinois Institute of Technology)*; Pengyuan Li
                         (Illinois institute of thechnology); Ziyu Liu (Illinois institute of thechnology); Dieter
@@ -344,7 +349,7 @@
 
                     <br>
                     <span class="session-time">11:50 &ndash; 12:10</span>
-                    <span class="session-talk"><a class="link" href="#">Leopard: A General Test Suite for
+                    <span class="session-talk"><a class="link" href="papers/p44-liu.pdf">Leopard: A General Test Suite for
                             Isolation Level Verification</a></span>
                     <span class="session-presenter">Peiyuan Liu (East China Normal University)*; Siyang Weng (East China
                         Normal University); Keqiang Li (East China Normal University); Lyu Ni (East China Normal
@@ -362,16 +367,16 @@
                     <h3 class="session-title">Spare time</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1500;">3:00pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1500;" id="session6">3:00pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1500 / time-1600;">
-                    <h3 class="session-title"><a href="#">Session 6: GenAI 1</a></h3>
+                    <h3 class="session-title"><a href="#session6">Session 6: GenAI 1</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">3:00 &ndash; 3:20</span>
-                    <span class="session-talk"><a class="link" href="#">NL2SQL is a solved problem...
+                    <span class="session-talk"><a class="link" href="papers/p74-floratou.pdf">NL2SQL is a solved problem...
                             Not!</a></span>
                     <span class="session-presenter">Avrilia Floratou (Microsoft)*; Fotis Psallidas (Microsoft); Fuheng
                         Zhao (Microsoft); Shaleen Deep (Microsoft Gray Systems Lab); Gunther Hagleither (Waii); Wangda
@@ -383,7 +388,7 @@
 
                     <br>
                     <span class="session-time">3:20 &ndash; 3:40</span>
-                    <span class="session-talk"><a class="link" href="#">Welding Natural Language Queries to
+                    <span class="session-talk"><a class="link" href="papers/p79-rajan.pdf">Welding Natural Language Queries to
                             Analytics IRs with LLMs</a></span>
                     <span class="session-presenter">Kaushik Rajan (Microsoft Research)*; Aseem Rastogi (Microsoft);
                         Akash Lal (Microsoft Research); Sampath Rajendra (Microsoft); Krithika Subramanian (Microsoft);
@@ -391,7 +396,7 @@
 
                     <br>
                     <span class="session-time">3:40 &ndash; 4:00</span>
-                    <span class="session-talk"><a class="link" href="#">Turning Databases Into Generative AI
+                    <span class="session-talk"><a class="link" href="papers/p81-jindal.pdf">Turning Databases Into Generative AI
                             Machines</a></span>
                     <span class="session-presenter">Alekh Jindal (SmartApps)*; Shi Qiao (SmartApps Inc); Sathwik Madhula
                         (SmartApps); Kanupriya Raheja (SmartApps); Sandhya Jain (SmartApps)</span>
@@ -402,16 +407,16 @@
                     <h3 class="session-title">Break</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1630;">4:30pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1630;" id="session7">4:30pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1630 / time-1800;">
-                    <h3 class="session-title"><a href="#">Session 7: Cloud 2</a></h3>
+                    <h3 class="session-title"><a href="#session7">Session 7: Cloud 2</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">4:30 &ndash; 4:50</span>
-                    <span class="session-talk"><a class="link" href="#">Off-the-shelf Data Analytics on
+                    <span class="session-talk"><a class="link" href="papers/p15-wawrzoniak.pdf">Off-the-shelf Data Analytics on
                             Serverless</a></span>
                     <span class="session-presenter">Michal Wawrzoniak (ETHZ)*; Gianluca Moro (ETH Zurich); Rodrigo Bruno
                         (Instituto Superior Técnico / INESC-ID Lisboa); Ana Klimovic (ETH Zurich); Gustavo Alonso
@@ -419,14 +424,14 @@
 
                     <br>
                     <span class="session-time">4:50 &ndash; 5:10</span>
-                    <span class="session-talk"><a class="link" href="#">Serverless State Management
+                    <span class="session-talk"><a class="link" href="papers/p16-li.pdf">Serverless State Management
                             Systems</a></span>
                     <span class="session-presenter">Tianyu Li (MIT CSAIL)*; Badrish Chandramouli (Microsoft Research);
                         Sebastian C Burckhardt (Microsoft Research); Samuel Madden (MIT)</span>
 
                     <br>
                     <span class="session-time">5:10 &ndash; 5:30</span>
-                    <span class="session-talk"><a class="link" href="#">Optimizing the cloud? Don’t train
+                    <span class="session-talk"><a class="link" href="papers/p47-bang.pdf">Optimizing the cloud? Don’t train
                             models. Build oracles!</a></span>
                     <span class="session-presenter">Tiemo Bang (UC Berkeley)*; Conor Power (UC Berkeley); Siavash Ameli
                         (University of California, Berkeley); Natacha Crooks (UC Berkeley); Joseph M Hellerstein (UC
@@ -434,7 +439,7 @@
 
                     <br>
                     <span class="session-time">5:30 &ndash; 5:50</span>
-                    <span class="session-talk"><a class="link" href="#">Scalable OLTP in the Cloud: What's
+                    <span class="session-talk"><a class="link" href="papers/p63-helland.pdf">Scalable OLTP in the Cloud: What's
                             the BIG DEAL?</a></span>
                     <span class="session-presenter">Pat Helland (Salesforce)*</span>
                 </div>
@@ -444,15 +449,15 @@
                     <h3 class="session-title">Dinner</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1930;">7:30pm</h3>
+                <h3 class="time-slot" style="grid-row: time-1930;" id="session8">7:30pm</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1930 / time-2100;">
-                    <h3 class="session-title"><a href="#">Session 8: Startup Panel</a></h3>
+                    <h3 class="session-title"><a href="#session8">Session 8: Startup Panel</a></h3>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">7:30 &ndash; 7:50</span>
-                    <span class="session-talk"><a class="link" href="#">Yellowbrick: An Elastic Data
+                    <span class="session-talk"><a class="link" href="papers/p2-cusack.pdf">Yellowbrick: An Elastic Data
                             Warehouse on Kubernetes</a></span>
                     <span class="session-presenter">Mark A Cusack (Yellowbrick Data)*; John Adamson (Yellowbrick Data);
                         Mark Brinicombe (Yellowbrick Data, Inc); Neil A Carson (Yellowbrick Data); Thomas Kejser
@@ -461,7 +466,7 @@
 
                     <br>
                     <span class="session-time">7:50 &ndash; 8:10</span>
-                    <span class="session-talk"><a class="link" href="#">MotherDuck: DuckDB in the cloud and
+                    <span class="session-talk"><a class="link" href="papers/p46-atwal.pdf">MotherDuck: DuckDB in the cloud and
                             in the client</a></span>
                     <span class="session-presenter">RJ Atwal (MotherDuck); Peter Boncz (Centrum Wiskunde &
                         Informatica)*; Ryan Boyd (Boyd); Antony Courtney (MotherDuck); Till Döhmen (University of
@@ -488,15 +493,13 @@
 
                 <h3 class="time-slot" style="grid-row: time-0900;">9:00am</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-0900 / time-1000;">
-                    <h3 class="session-title">Keynote 2</h3>
+                    <h3 class="session-title"><a class="link" href="keynotespeakers.html#wednesday">Keynote 2</a></h3>
                     <!--<span class="session-location">(Room: Zürich)</span>-->
                     <span class="session-time">9:00 &ndash; 10:00</span>
                     <span class="session-presenter">Chair: TBA</span>
-                    <span class="session-talk">Processing-in-memory: A Retrospective from a Real-World Product
-                        Experience
-                    </span>
-                    <span class="keynote-presenter"><a class="link" href="keynotespeakers.html#wednesday">Alexandra
-                            Fedorova (UBC)</a></span>
+                    <span class="session-talk"><a class="link" href="keynotespeakers.html#wednesday">Processing-in-memory: A Retrospective from a Real-World Product
+                        Experience</a></span>
+                    <span class="keynote-presenter">Alexandra Fedorova (UBC)</span>
                 </div>
 
                 <h3 class="time-slot" style="grid-row: time-1000;">10:00am</h3>
@@ -504,16 +507,16 @@
                     <h3 class="session-title">Break</h3>
                 </div>
 
-                <h3 class="time-slot" style="grid-row: time-1030;">10:30am</h3>
+                <h3 class="time-slot" style="grid-row: time-1030;" id="session9">10:30am</h3>
                 <div class="session track-all" style="grid-column: track-all; grid-row: time-1030 / time-1200;">
-                    <h3 class="session-title"><a href="#">Session 8: GenAI 2</a></h3>
+                    <h3 class="session-title"><a href="#session9">Session 9: GenAI 2</a></h3>
                     <span class="session-presenter">Chair: TBA</span>
 
                     <!--<span class="session-location">(Room: Zürich)</span>-->
 
                     <br>
                     <span class="session-time">10:30 &ndash; 10:50</span>
-                    <span class="session-talk"><a class="link" href="#">VerifAI: Verified Generative
+                    <span class="session-talk"><a class="link" href="papers/p5-tang.pdf">VerifAI: Verified Generative
                             AI</a></span>
                     <span class="session-presenter">Nan Tang (HKUST, GZ); Chenyu Yang (HKUST, GZ); Ju Fan (Renmin
                         University of China)*; Lei Cao (University of Arizona/MIT); Yuyu Luo (HKUST, GZ); Alon Y Halevy
@@ -521,21 +524,21 @@
 
                     <br>
                     <span class="session-time">10:50 &ndash; 11:10</span>
-                    <span class="session-talk"><a class="link" href="#">CAESURA: Language Models as
+                    <span class="session-talk"><a class="link" href="papers/p14-urban.pdf">CAESURA: Language Models as
                             Multi-Modal Query Planners</a></span>
                     <span class="session-presenter">Matthias Urban (Technical University of Darmstadt)*; Carsten Binnig
                         (TU Darmstadt)</span>
 
                     <br>
                     <span class="session-time">11:10 &ndash; 11:30</span>
-                    <span class="session-talk"><a class="link" href="#">The Fast and the Private: Task-based
+                    <span class="session-talk"><a class="link" href="papers/p49-huang.pdf">The Fast and the Private: Task-based
                             Dataset Search</a></span>
                     <span class="session-presenter">Zezhou Huang (Columbia University)*; Jiaxiang Liu (Columbia
                         University); Haonan Wang (Columbia); Eugene Wu (Columbia University)</span>
 
                     <br>
                     <span class="session-time">11:30 &ndash; 11:50</span>
-                    <span class="session-talk"><a class="link" href="#">Revisiting Prompt Engineering via
+                    <span class="session-talk"><a class="link" href="papers/p67-parameswaran.pdf">Revisiting Prompt Engineering via
                             Declarative Crowdsourcing</a></span>
                     <span class="session-presenter">Aditya Parameswaran (University of California, Berkeley)*; Shreya
                         Shankar (University of California Berkeley); Parth Asawa (UC Berkeley); Naman Jain (UC
@@ -543,7 +546,7 @@
 
                     <br>
                     <span class="session-time">11:50 &ndash; 12:10</span>
-                    <span class="session-talk"><a class="link" href="#">SMARTFEAT: Efficient Feature
+                    <span class="session-talk"><a class="link" href="papers/p72-lin.pdf">SMARTFEAT: Efficient Feature
                             Construction through Feature-Level Foundation Model Interactions</a></span>
                     <span class="session-presenter">Yin Lin (University of Michigan)*; Bolin Ding ("Data Analytics and
                         Intelligence Lab, Alibaba Group"); H. V. Jagadish (University of Michigan); Jingren Zhou
@@ -557,7 +560,7 @@
 
             </div>
         </div>
-        
+
         <div id="footer">
             <p><span>&copy; 2024 <a href="index.html#">CIDR Conference</a></span><br />
                 Template design by <a href="http://andreasviklund.com/">Andreas Viklund</a><br />
